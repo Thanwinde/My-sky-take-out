@@ -1,0 +1,28 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: root
+    password: 123456
+  alioss:
+    endpoint: NOTIHING
+    access-key-id: NOTIHING
+    access-key-secret: NOTIHING
+    bucket-name: NOTIHING
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+    database: 0
+  wechat:
+    appid: wxb97724ab70fe3e55
+    secret: 1014103253afa20236df5bdc43fe30ae
+#    mchid : 1561414331
+#    mchSerialNo: 4B3B3DC35414AD50B1B755BAF8DE9CC7CF407606
+#    privateKeyFilePath: D:\pay\apiclient_key.pem
+#    apiV3Key: CZBK51236435wxpay435434323FFDuv3
+#    weChatPayCertFilePath: D:\pay\wechatpay_166D96F876F45C7D07CE98952A96EC980368ACFC.pem
+#    notifyUrl: https://58869fb.r2.cpolar.top/notify/paySuccess
+#    refundNotifyUrl: https://58869fb.r2.cpolar.top/notify/refundSuccess
